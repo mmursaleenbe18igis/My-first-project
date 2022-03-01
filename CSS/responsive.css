@@ -1,0 +1,30 @@
+@media screen and (max-width:720px) {
+    body{
+        background-color: red;
+    }
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        justify-content: center;
+        padding: 10px 0px;
+      }
+      nav ul {
+        justify-content: center;
+        align-items: center;
+      }
+      .search {
+        justify-content: center;
+        padding: 0 0 10px 0;
+      }
+      .search button {
+        width: 60px;
+      }
+      .item1{
+          margin: 3px;
+      }
+      .cart{
+          margin: auto;
+      }
+    
+}
